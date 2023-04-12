@@ -1,0 +1,110 @@
+body
+{
+    background:skyblue;
+}
+#container
+{
+    width:80%;
+    height:500px; 
+    border-radius:21px;
+    background-color:white ;
+    margin-top: 98px;
+    margin-left:137px ;
+}
+figure
+{
+    width:106%;
+    margin: 0;
+    height: 500px;
+    border-radius:21px;
+    overflow: hidden;
+}
+figure img
+{
+    width: 50%;
+    height: 100%;
+    object-fit:cover;
+}
+.main
+{
+    font-size: 116px;
+    margin-top: -322px;
+   /* margin-left: 318px;*/
+    font-family: Courier;
+    color:yellow ;
+}
+.head
+{
+    /*margin-top:-375px;
+    margin-left:618px;*/
+}
+.head button
+{
+     margin:5%;
+     width:20%;
+    height:33px;
+    border:2px solid rgb(214, 67, 214);
+    border-radius:3px ;
+    color:white
+    
+}
+.head a
+{
+    /*font-size: 12px;*/
+    font-family: sans-serif;
+    text-align: center;
+    color:blue ;
+}
+.home
+{
+    color:black;
+}
+.pic
+{
+    width:31%;
+    /*height: 39%;*/
+   /* margin-top:191px ;*/
+    /*margin-left: 650px;*/
+    
+}
+
+/*----normal form*/
+
+h1
+{
+    text-align: center;
+}
+h3
+{
+    margin:3% ;
+}
+
+#container-1
+{
+    width:50%;
+    background-color:#E2EEFA;
+    height:500px;
+    margin:1% 30% 30% 30% ;
+}
+#whole
+{
+    text-align: left;
+    margin-left: 4%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.name,.email,.roll,.select
+{
+    font-size:16px ;
+    color:gray;
+    border-top:3px solid lightgreen ;
+    border-left:3px solid lightgreen;
+    border-bottom:3px solid lightcyan;
+    border-right:3px solid lightcyan;
+    margin-left:2% ;
+    margin-bottom: 7%;
+    margin-top:4%;
+
+}
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="form.css"> 
+    </head>
+    <body>
+        <h1>Form</h1>
+    <div id="container-1">
+        <h3>Fill the below details</h3>
+    <form>
+        <div id="whole">
+            <label>Name</label>
+                <input type="name" placeholder="Enter your name" class="name"required/><br>
+            <label>Email</label>
+                <input type="email" placeholder="hello@gmail.com" class="email"required/><br>
+            <label>Roll No</label>
+                <input type="number" placeholder="roll no" class="roll" min="1" max="100" required/><br>
+            <label>How do you rate our courses?</label>
+                <select class="select">
+                    <option value="" placeholder="select one">select one</option>
+                    <option value="1">Average</option>
+                    <option value="2">Good</option>
+                    <option value="3">Excellent</option>
+                </select><br>
+            <label>Which is your favorite courses?</label>
+                <input type="radio" name="course" id="front"required/><label>Front end</label>
+                <input type="radio" name="course" id="back"required/><label>Back end</label>
+                <input type="radio" name="course" id="data"required/><label>Data base</label>
+        </div> 
+    </form>
+     </div>
+    </body>
+</html>
